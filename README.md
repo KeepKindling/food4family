@@ -4,7 +4,11 @@
 
 - Fist login to heroku and press new to click create new app
 - Name the app and select your region
-- 
+- Navigate to the settings section and scroll down to config vars
+- Clcik 'reveal config vars' and add CLOUDINARY_URL, DATABASE_URL, DISABLE_COLLECTSTATIC, PORT and SECRET_KEY
+- Go to the Deploy tab and scroll down to select GitHub as your deployment method
+- Finally search and connect to your current repository, scroll down once more to manual deploy and click deploy branch
+
 
 ## creating elephantsql database steps 
 - First login to elephantsql
