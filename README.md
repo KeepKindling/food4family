@@ -21,3 +21,12 @@
 - migrate changes to settings.py file and check the database is working by navigating to the browser option on the elephantsql instance and then clicking table queries. 
 - If you can see a number of different rows, it has been successful
 - Finally, commit and push changes to your project so the database url is saved
+
+## Creating a superuser
+I only created one admin for the site so I could easily manage entries pending approval . I created the admin by using 'python3 manage.py createsuperuser'. The details are as follows:
+- Username:  hornygoat
+- Email: gillgoat@horn.com
+- Password:  ireallylike10cacti
+
+Below is evidence that the admin has been registered and also that my first model 'Entry' has been added correctly:
+![Evidence of admin site running](media/Successful-Admin-Creation-And-Entry-Registered.png)

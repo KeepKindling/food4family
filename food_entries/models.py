@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
-STATUS = ((0, "Waiting_approval"), (1, "Published"))
+STATUS = ((0, "Waiting approval"), (1, "Published"))
 
 
 class Entry(models.Model):
