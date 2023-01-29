@@ -8,6 +8,8 @@
 - Clcik 'reveal config vars' and add CLOUDINARY_URL, DATABASE_URL, DISABLE_COLLECTSTATIC, PORT and SECRET_KEY
 - Go to the Deploy tab and scroll down to select GitHub as your deployment method
 - Finally search and connect to your current repository, scroll down once more to manual deploy and click deploy branch
+- Successfully Deployed: 
+![First deployment from heroku](media/2023-01-29-First-Successful-Heroku-Deployment.png)
 
 
 ## creating elephantsql database steps 
