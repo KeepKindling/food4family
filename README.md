@@ -25,8 +25,6 @@
 ## Creating a superuser
 I only created one admin for the site so I could easily manage entries pending approval . I created the admin by using 'python3 manage.py createsuperuser'. The details are as follows:
 - Username:  hornygoat
-- Email: gillgoat@horn.com
-- Password:  ireallylike10cacti
 
 Below is evidence that the admin has been registered and also that my first model 'Entry' has been added correctly:
 ![Evidence of admin site running](media/Successful-Admin-Creation-And-Entry-Registered.png)
