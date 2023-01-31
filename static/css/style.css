@@ -40,11 +40,16 @@ body {
 }
 
 .dark-bg {
-    background-color: #445261;
+    background-color: #76675b;
+    color: #fff;
 }
 
 .main-bg {
     background-color: #F9FAFC;
+}
+
+.credit-space {
+    text-align: center;
 }
 
 .card {
