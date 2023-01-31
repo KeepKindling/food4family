@@ -14,8 +14,9 @@ class Entry(models.Model):
     description = models.TextField()
     featured_image = CloudinaryField('image', default='placeholder')
     excerpt = models.TextField(blank=True)
-    likes = models.ManyToManyField(User, related_name='entry_likes')
+    likes = models.ManyToManyField(User, related_name='entry_likes', blank=True)  # noqa
     status = models.IntegerField(choices=STATUS, default=0)
+    approved = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['-created_on']

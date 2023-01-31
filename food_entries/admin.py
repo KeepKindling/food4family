@@ -11,3 +11,7 @@ class EntryAdmin(SummernoteModelAdmin):
     list_display = ('title', 'slug', 'status', 'created_on')
     search_fields = ['title', 'description']
     summernote_fields = ('description')
+    actions = ['approve_entries']
+
+    def approve_entries(self, request, queryset):
+        queryset.update(approved=True)
