@@ -1,0 +1,48 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="masthead">
+    <div class="container">
+        <div class="row g-0">
+            <div class="col-md-6 masthead-text">
+                <h1 class="post-title"> {{ entry.title }}</h1>
+                <p class="post-subtitle"> {{ entry.author }}| {{ entry.created_on }}</p>
+            </div>
+            <div class="d-none d-md-block col-md-6 masthead-image">
+                {% if "placeholder" in post.featured_image.url %}
+                <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
+                {% else %}
+                <img src="{{ entry.featured_image }}" width="100%">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col card mb-4  mt-3 left  top">
+            <div class="card-body">
+                <p class="card-text ">{{ entry.description | safe }}</p>
+                <div class="row">
+                    <div class="col-1">
+                        <strong class="text-secondary"><i class="far fa-heart"></i>{{ entry.number_of_likes }}</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 card mb-4  mt-3 ">
+            <div class="card-body">
+                <!-- For later -->
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

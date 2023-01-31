@@ -37,17 +37,17 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="nav-item">
-                        <a class="nav-link custom-nav-items" href="#">Logout</a>
+                        <a class="nav-link custom-nav-items" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link custom-nav-items" href="#">My Recipes</a>
                     </li>
                     {% else %}
                     <li class="nav-item">
-                        <a class="nav-link custom-nav-items" href="#">Register</a>
+                        <a class="nav-link custom-nav-items" href="{% url 'account_signup' %}">Register</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-nav-items" href="#">Login</a>
+                        <a class="nav-link custom-nav-items" href="{% url 'account_login' %}">Login</a>
                     </li>
                     {% endif %}
                 </ul>
