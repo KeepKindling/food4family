@@ -2,6 +2,7 @@
 
 body {
     background-color: #F9FAFC;
+    font-family: 'Indie Flower', cursive;
 }
 
 .brand {
@@ -29,6 +30,10 @@ body {
     font-size: 26px;
     font-weight: 700;
     color: rgb(31, 129, 31);
+}
+
+.font {
+    font-family: 'Indie Flower', cursive;
 }
 
 .thin {
@@ -130,18 +135,17 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #bb9523;
     color: #fff;
 }
 
-.btn-signup:hover,
-.btn-signup:active {
+.btn-signup:hover, .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #bb9523;
 }
 
 .link {
-    color: #23BBBB;
+    color: #bb9523;
     text-decoration: none;
 }
 
@@ -149,17 +153,4 @@ body {
 .link:active {
     color: #445261;
     text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
 }
