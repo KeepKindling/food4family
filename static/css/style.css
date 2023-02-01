@@ -135,17 +135,17 @@ body {
 }
 
 .btn-signup {
-    background-color: #bb9523;
+    background-color: rgb(31, 129, 31);
     color: #fff;
 }
 
 .btn-signup:hover, .btn-signup:active {
     background-color: #fff;
-    color: #bb9523;
+    color: rgb(31, 129, 31);
 }
 
 .link {
-    color: #bb9523;
+    color: rgb(31, 129, 31);
     text-decoration: none;
 }
 
