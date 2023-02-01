@@ -70,6 +70,12 @@ The page for logging off is very plain as I needed to dedicate more time towards
 
 ![Sign-out Form](media/readme_screenshots/Signout.png)
 
+#### Registration Page/Form:
+
+The registration form is enthusiastic to motivate people to create an account with us. It is all very easy to use as users only need to type in a unique username and a valid password which they will then need to confirm. Email address is optional and serves no purpose other than adding more to the form. 
+
+![Registration Form](media/readme_screenshots/Registration-Form.png)
+
 ## deployment to heroku steps:
 
 - Fist login to heroku and press new to click create new app
