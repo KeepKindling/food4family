@@ -24,6 +24,23 @@ During the planning stage of this site, I had a handful of user stories that wer
 
 ![User Story's Board](media/readme_screenshots/User-Stories-Project-Board.png)
 
+### Additional User Stories
+These stories were added after needing another custom model. They were designed following the idea behind the model which was to alow user's to add a family name upon registration and login so they can see their family members who use the site and view there posts.
+
+- As a site user, I can enter a family name, so that I can see what foods my family members enjoy.
+
+- As a site user, I can see a list of all recipe's by other members of my family, so that I can check for their latest updates.
+
+- As a site user, I can click on a recpie by a family member, so that I can view it for additional information.
+
+- As a site user, only I can update or delete recipe entries, so I can keep track of what I have recently added, changed or deleted.
+
+- As a site user, I can register as head of the family, so that I can add family members to my family account. 
+
+- As a site user, I can sign into my family account using a password, so only my family members can join on the site.
+
+- As a site admin, I can see the family name of a post, so I can group all posts by that family.
+
 ## Features
 
 ### Existing Features
@@ -76,6 +93,12 @@ The registration form is enthusiastic to motivate people to create an account wi
 
 ![Registration Form](media/readme_screenshots/Registration-Form.png)
 
+## Features for the Future
+
+Add functionality to like, comment and share recipes so the site is more interactive.
+
+Have a seperate tab that links to up and coming food bloggers on youtube, instagram and other social sites.
+
 ## deployment to heroku steps:
 
 - Fist login to heroku and press new to click create new app
@@ -104,3 +127,6 @@ I only created one admin for the site so I could easily manage entries pending a
 
 Below is evidence that the admin has been registered and also that my first model 'Entry' has been added correctly:
 ![Evidence of admin site running](media/readme_screenshots/Successful-Admin-Creation-And-Entry-Registered.png)
+
+## Credits
+Massive thankyou to Tutot Oisin for helping me figure out how to alter the allauth form using inheritance and overriding

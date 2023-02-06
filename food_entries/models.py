@@ -25,12 +25,17 @@ class Entry(models.Model):
         return self.title
 
 
-class FamilyMember(models.Model):
-    name = models.CharField(max_length=150)
-    # slug = models.SlugField(max_length=150, unique=True)
-    head_of_family = models.ForeignKey(User, on_delete=models.CASCADE, related_name="family_members")  # noqa
-    likes = models.TextField()
-    dislikes = models.TextField()
+# This custom model below was going to be used to allow users upon registration
+# and login to add their family name so they can view posts from their family members   # noqa
+# but i could not figure out how to import an extra field into the standard allauth   # noqa
+# signup.html or login.html forms and since the project was already overdue, I decided to  # noqa
+# comment it out so it's intention could be seen.
 
-    def __str__(self):
-        return self.name
+# class FamilyMember(models.Model):
+#     name = models.CharField(max_length=150)
+#     family_name = models.CharField(max_length=150)
+#     likes = models.TextField()
+#     dislikes = models.TextField()
+
+#     def __str__(self):
+#         return self.name

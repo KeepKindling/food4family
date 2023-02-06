@@ -152,3 +152,5 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+ACCOUNT_FORMS = {'signup': 'food_entries.forms.CustomSignupForm'}
+# ACCOUNT_SIGNUP_FORM_CLASS = 'food_entries.forms.SignupForm'
