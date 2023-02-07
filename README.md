@@ -129,4 +129,4 @@ Below is evidence that the admin has been registered and also that my first mode
 ![Evidence of admin site running](media/readme_screenshots/Successful-Admin-Creation-And-Entry-Registered.png)
 
 ## Credits
-Massive thankyou to Tutot Oisin for helping me figure out how to alter the allauth form using inheritance and overriding
+Massive thankyou to Tutor Oisin for helping me figure out how to alter the allauth form using inheritance and overriding and Tutor Martin for helping me change my landing page and redirecting the landing page to register page

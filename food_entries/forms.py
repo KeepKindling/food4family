@@ -5,7 +5,7 @@ from allauth.account.forms import SignupForm, LoginForm
 
 # This form here specifically inherits from and overrides
 # the standard signup form that is provided by allauth
-# sso I could include a field for the users 'family name'
+# so I could include a field for the users 'family name'
 class CustomSignupForm(SignupForm):
 
     last_name = forms.CharField(max_length=30, label='Family name')
@@ -23,6 +23,9 @@ class CustomSignupForm(SignupForm):
         return user
 
 
+# This form here specifically inherits from and overrides
+# the standard login form that is provided by allauth
+# so I could include a field for the users 'family name'
 class CustomLoginForm(LoginForm):
 
     last_name = forms.CharField(max_length=30, label='Family name')
