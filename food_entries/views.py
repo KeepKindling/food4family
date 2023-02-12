@@ -5,9 +5,11 @@ from .models import Entry
 
 from django.shortcuts import redirect
 
+
 def homepage(request):
     response = redirect('accounts/signup')
     return response
+
 
 class EntryList(generic.ListView):
     model = Entry

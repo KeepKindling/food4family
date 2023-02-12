@@ -42,11 +42,8 @@ class CustomLoginForm(LoginForm):
         # You must return the original result.
         return user
 
-# class SignupForm(forms.ModelForm):
-#     class Meta:
-#         model = FamilyMember()
-#         fields = ['family_name']
 
-#     def signup(self, request, user):
-#         user.family_name = self.cleaned_data['family_name']
-#         save()
+# class EntryForm(forms.Form):
+#     title = forms.CharField(max_length=40)
+#     description = forms.CharField(max_length=200)
+#     author = forms.AutoField(user.name)
