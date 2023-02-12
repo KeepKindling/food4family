@@ -132,3 +132,4 @@ Below is evidence that the admin has been registered and also that my first mode
 Massive thankyou to Tutor Oisin for helping me figure out how to alter the allauth form using inheritance and overriding and Tutor Martin for helping me change my landing page and redirecting the landing page to register page
 My mentor Brian for insight and support
 The slack community for ongoing helpful discussions
+Borrowed snippits of code from the "I think, therefore I blog" walkthrough project with code institute
